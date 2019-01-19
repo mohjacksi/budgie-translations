@@ -8,6 +8,7 @@
 # mehdi alouane <pro4medo@gmail.com>, 2015
 # MUHAAB SHAAM <muhaab.org@gmail.com>, 2017
 # أبو سامي <ahmadjab1998@gmail.com>, 2017-2018
+# Mohammed Jacksi <mohjacksi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
@@ -51,11 +52,11 @@ msgstr "إعدادات"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "تم تشغيل وضع الكافايين"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "تم ايقاف وضع الكافايين"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -72,13 +73,13 @@ msgstr[5] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "سوف يتم ايقاف التشغيل في غضون"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "وضع الكافايين"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -91,11 +92,11 @@ msgstr "الإشعارات"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "لا يوجد تطبيقات تشغل صوت حالياً"
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "تشغيل موسيقى"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -124,11 +125,11 @@ msgstr "لا إشعارات جديدة"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "التطبيقات"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "الاجهزة"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -195,11 +196,11 @@ msgstr "إعدادات الصوت"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "اطلاق نموذج جديد"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "اغلاق كل النوافذ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
 #, fuzzy
@@ -209,19 +210,19 @@ msgstr "دائماً"
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "تكبير"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "تصغير"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "ازالة من المفضلة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "مفضل"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -229,12 +230,12 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "الانتقال الى بيئة العمل %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "تصغير"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
 #, fuzzy
@@ -278,7 +279,7 @@ msgstr "الكل"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "عذراً، لم يتم العثور على عناصر"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -336,7 +337,7 @@ msgstr "حذف"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "عداد (دقائق)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -638,63 +639,63 @@ msgstr "عندما في وضع Dock، اللوحة ستستخدم اقل مسا�
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "السماح لمقوي الصوت لأعلى من 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
+msgstr "السماح برفع الصوت من خلال اعدادات الصوت وايضا من عنصر اخراج الصوت في Raven الى حد 150%"
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "تشغيل الشاشة لعدد اسابيع من التقويم"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "هذا الاعداد يفعل شاشة ارقام الاسابيع في عنصر التقويم"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "اظهار عنصر التقويم"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "اظهار او اخفاء عنصر التقويم في مقطع Raven's Applets"
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "اظهار عنصر مخرج الصوت"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "اظهار او اخفاء عنصر مخرج الصوت في مقطع Raven's Applets"
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "اظهار عنصر مدخل لاقط الصوت"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "اظهار او اخفاء عنصر لاقط الصوت في مقطع Raven's Applets"
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "اظهار عنصر مشغل الميديا"
 
 #: src/panel/settings/settings_raven.vala:70
-msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
+msgid "Shows or hides the Media Playback Controls  Widget in Raven's Applets section."
+msgstr "اظهار او اخفاء عنصر مشغل الميديا (MPRIS) في مقطع Raven's Applets"
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "اظهار شريط الطاقة "
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "اظهار او اخفاء شريط الطاقة في اسفل Raven"
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -933,19 +934,19 @@ msgstr "تغيير ترتيب الأزرار في شريط عنوان التطب
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "توسيط النوافذ الجديدة في الشاشة"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "توسيط النوافذالمطلقة حديثا في الشاشة الحالية"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "تعطيل الوضع الليلي في حال كانت النافذة في وضع ملئ الشاشة"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
+msgstr "تعطيل الوضع الليلي في حال كانت النافذة في وضع ملئ الشاشة۔ اعادة تشغيله عند الغاء وضع ملئ الشاشة"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -957,11 +958,11 @@ msgstr "سيتم ترتيب النوافذ تلقائياً عندما تسحب 
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "تفعيل التركيز على النافذة عندما تحديك الفأرة خارج وداخل النافذة"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
+msgstr "تفعيل التركيز على النافذة عندما تدخل الفأرة على النافذة وتعطيله عند تحريك الفأرة النافذة۔"
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1013,11 +1014,11 @@ msgstr "اختيار عرض الخط المستخدم في التطبيقات ا
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "تكبير النص"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "ضبط معامل تكبير النص"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1029,23 +1030,23 @@ msgstr "هل أنت متأكد أنك تريد إنهاء الجلسة ؟"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "اظهار كل النوافذ عند الضغط"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "فقط اظهر المفضلة"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "قفل الايقونات"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "تقييد مساحة عمل"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "تجميع النوافذ"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1102,15 +1103,15 @@ msgstr "أيقونة القائمة"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"اضافة\" زر الاضهار"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "لا تظهر"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "اظهار عند تمرير الفأرة"
 
 #: src/applets/workspaces/settings.ui.h:4
 #, fuzzy
@@ -1124,11 +1125,11 @@ msgstr "لا إشعارات جديدة"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "اقصى حد للاضائة"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "مستوى الاضائة"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1225,7 +1226,7 @@ msgstr "قائمة المهمات"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "كافايين"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
